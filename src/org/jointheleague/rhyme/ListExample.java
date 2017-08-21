@@ -1,3 +1,4 @@
+package org.jointheleague.rhyme;
 
 public class ListExample implements LinkedListInterface {
 

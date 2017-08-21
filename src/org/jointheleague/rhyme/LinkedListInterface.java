@@ -1,6 +1,7 @@
+package org.jointheleague.rhyme;
 import java.util.Collection;
 
-public interface LinkedListInterface
+public interface LinkedListInterface <T>
 
 {
 
@@ -22,11 +23,11 @@ public interface LinkedListInterface
 
 	/* Function to insert an element at begining */
 
-	public void addFirst(Object data);
+	public void addFirst(T data);
 
 	/* Function to insert an element at end */
 
-	public void addLast(Object data);
+	public void addLast(T data);
 
 	/**
      * Appends the specified element to the end of this list.
@@ -36,7 +37,7 @@ public interface LinkedListInterface
      * @param data object to be appended to this list
      * @return {@code true} (as specified by {@link Collection#add})
      */
-	public void add(Object data, int index);
+	public void add(T data, int index);
 
 	/**
      * Removes the element at the specified position in this list.  Shifts any
